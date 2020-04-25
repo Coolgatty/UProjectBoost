@@ -2528,16 +2528,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4105269697844982860, guid: bbe1c492d2fc748409fc396465c16903,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 56
-      objectReference: {fileID: 0}
-    - target: {fileID: 4105269697844982860, guid: bbe1c492d2fc748409fc396465c16903,
-        type: 3}
-      propertyPath: m_Drag
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 4105269697844982861, guid: bbe1c492d2fc748409fc396465c16903,
         type: 3}
       propertyPath: m_Name

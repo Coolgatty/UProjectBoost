@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Rocket : MonoBehaviour
 {
@@ -67,13 +65,10 @@ public class Rocket : MonoBehaviour
             case "Friendly":
                 break;
             case "Finish":
-                print("Win");
+                SceneManager.LoadScene(1);
                 break;
             default:
-                transform.position = initialPos;
-                rb.velocity = Vector3.zero;
-                rb.angularVelocity = Vector3.zero;
-                rb.rotation = Quaternion.Euler(Vector3.zero);
+                SceneManager.LoadScene(0);
                 break;
         }
     }
