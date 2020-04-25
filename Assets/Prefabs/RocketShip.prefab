@@ -603,6 +603,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67633517db35cb04ca1c4ba5f3faac7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thrustForce: 3680
+  rotationTorque: 3000
 --- !u!54 &4105269697844982860
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -611,13 +613,13 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4105269697844982861}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0.5
-  m_AngularDrag: 0.8
+  m_Mass: 50
+  m_Drag: 1.2
+  m_AngularDrag: 2
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 56
+  m_Constraints: 24
   m_CollisionDetection: 0
 --- !u!82 &1160942069255711188
 AudioSource:
